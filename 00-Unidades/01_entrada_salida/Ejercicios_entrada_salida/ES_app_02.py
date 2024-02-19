@@ -27,7 +27,9 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        descripcion_producto  = prompt( "Buscador" , "Producto deaseado")
+        descripcion_producto = "Pepsi"
+        alert ("Descripcion", descripcion_producto)
         
         
     
